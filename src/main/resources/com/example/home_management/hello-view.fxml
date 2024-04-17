@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane prefHeight="700.0" prefWidth="1390.0" styleClass="root_background" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.home_management.HelloController">
+   <children>
+      <Pane layoutX="798.0" layoutY="167.0" prefHeight="75.0" prefWidth="206.0" styleClass="rest_money_label" stylesheets="@style.css">
+         <children>
+            <Label layoutX="57.0" layoutY="1.0" text="Rest Balance">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Text layoutX="80.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="80000">
+               <font>
+                  <Font name="Arial Bold" size="20.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="47.0" fitWidth="56.0" layoutX="3.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/hand-with-money-png.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutX="192.0" layoutY="48.0" prefHeight="75.0" prefWidth="601.0" styleClass="transparent" stylesheets="@style.css">
+         <children>
+            <Label layoutX="26.0" layoutY="3.0" text="Welcome">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="561.0" layoutY="280.0" prefHeight="75.0" prefWidth="199.0" styleClass="rent_collected_label" stylesheets="@style.css">
+         <children>
+            <Label layoutX="61.0" layoutY="1.0" text="Rental list">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Text layoutX="86.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="20">
+               <font>
+                  <Font name="Arial Bold" size="20.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="44.0" fitWidth="42.0" layoutX="11.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/list.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutX="558.0" layoutY="167.0" prefHeight="75.0" prefWidth="206.0" styleClass="est_money_label" stylesheets="@style.css">
+         <children>
+            <Label layoutX="66.0" layoutY="1.0" text="Est. Balance">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Text layoutX="83.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="100000">
+               <font>
+                  <Font name="Arial Bold" size="20.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="47.0" fitWidth="56.0" layoutX="3.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/hand-with-money-png.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutX="328.0" layoutY="167.0" prefHeight="75.0" prefWidth="206.0" styleClass="total_money_label" stylesheets="@style.css">
+         <children>
+            <Label layoutX="56.0" layoutY="1.0" text="Total Received">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Text layoutX="87.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="20000">
+               <font>
+                  <Font name="Arial Bold" size="20.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="47.0" fitWidth="56.0" layoutX="3.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/hand-with-money-png.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutX="328.0" layoutY="280.0" prefHeight="75.0" prefWidth="206.0" styleClass="total_unit_label" stylesheets="@style.css">
+         <children>
+            <Label layoutX="72.0" layoutY="1.0" text="Total Unit">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Text layoutX="97.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10">
+               <font>
+                  <Font name="Arial Bold" size="20.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="44.0" fitWidth="42.0" layoutX="13.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/list.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutX="1036.0" layoutY="167.0" prefHeight="75.0" prefWidth="206.0" styleClass="total_exp_money_label" stylesheets="@style.css">
+         <children>
+            <Label layoutX="58.0" layoutY="1.0" text="Total Expennse">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Text layoutX="92.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1000">
+               <font>
+                  <Font name="Arial Bold" size="20.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="47.0" fitWidth="56.0" layoutX="3.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/hand-with-money-png.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutX="1036.0" layoutY="280.0" prefHeight="75.0" prefWidth="206.0" styleClass="employee_label" stylesheets="@style.css">
+         <children>
+            <Label layoutX="68.0" layoutY="1.0" text="Employee">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Text layoutX="103.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4">
+               <font>
+                  <Font name="Arial Bold" size="20.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="47.0" fitWidth="56.0" layoutX="7.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/pngtree-company-employee-avatar-icon-wearing-a-suit-png-image_6133899.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutX="797.0" layoutY="280.0" prefHeight="75.0" prefWidth="206.0" styleClass="rental_list_label" stylesheets="@style.css">
+         <children>
+            <Label layoutX="50.0" layoutY="1.0" text="Rent Collected">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Text layoutX="83.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="14">
+               <font>
+                  <Font name="Arial Bold" size="20.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="44.0" fitWidth="42.0" layoutX="5.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/list.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutX="1048.0" layoutY="67.0" prefHeight="47.0" prefWidth="283.0" styleClass="srch_pane" stylesheets="@style.css">
+         <children>
+            <TextField layoutX="24.0" layoutY="8.0" promptText="Type here for search" styleClass="transparent" stylesheets="@style.css">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </TextField>
+            <Button layoutX="205.0" layoutY="9.0" mnemonicParsing="false" styleClass="srch_button" stylesheets="@style.css" text="Search" textFill="WHITE" />
+         </children>
+      </Pane>
+      <Circle fx:id="cr" fill="DODGERBLUE" layoutX="1299.0" layoutY="36.0" radius="22.0" stroke="BLACK" strokeType="INSIDE" />
+      <Text fill="#819af5" layoutX="1190.0" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LOG OUT">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Text>
+      <Pane layoutX="331.0" layoutY="439.0" prefHeight="233.0" prefWidth="442.0" styleClass="graph_chart_pane" stylesheets="@style.css" />
+      <Pane layoutX="811.0" layoutY="439.0" prefHeight="106.0" prefWidth="418.0" styleClass="graph_chart_pane" stylesheets="@style.css" />
+      <Pane layoutX="811.0" layoutY="566.0" prefHeight="127.0" prefWidth="418.0" styleClass="graph_chart_pane" stylesheets="@style.css" />
+      <AnchorPane fx:id="side_ankerpanel" layoutX="5.0" layoutY="2.0" prefHeight="690.0" prefWidth="169.0" styleClass="side_ankerpanel" stylesheets="@style.css">
+         <children>
+            <Label fx:id="top_label" layoutX="19.0" layoutY="14.0" prefHeight="42.0" prefWidth="142.0" text=" Apartment " textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="24.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="42.0" fitWidth="42.0" layoutX="62.0" layoutY="79.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/dashboard.png" />
+               </image>
+            </ImageView>
+            <Button id="Dashboard" layoutX="31.0" layoutY="122.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="99.0" styleClass="Dashboard" text="DASHBOARD" textAlignment="CENTER" textFill="WHITE" AnchorPane.bottomAnchor="548.0" AnchorPane.leftAnchor="31.0" AnchorPane.rightAnchor="39.0" AnchorPane.topAnchor="122.0">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="42.0" fitWidth="42.0" layoutX="60.0" layoutY="159.0" onMouseClicked="#gotoappartment" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/apartment.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="42.0" fitWidth="42.0" layoutX="62.0" layoutY="231.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/rental_list.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="42.0" fitWidth="42.0" layoutX="62.0" layoutY="303.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/rent_collection.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="47.0" fitWidth="42.0" layoutX="62.0" layoutY="462.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/maintainance.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="42.0" fitWidth="33.0" layoutX="69.0" layoutY="537.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/report.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="42.0" fitWidth="47.0" layoutX="62.0" layoutY="613.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/settings.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="dashboard_apartment" layoutX="30.0" layoutY="198.0" mnemonicParsing="false" onAction="#gotoappartment" prefHeight="25.0" prefWidth="99.0" styleClass="Dashboard" text="APARTMENT" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button id="rental_list" layoutX="31.0" layoutY="273.0" mnemonicParsing="false" onAction="#gotoRental_list" prefHeight="18.0" prefWidth="99.0" styleClass="Dashboard" text="RENTAL LIST" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button id="employee" layoutX="37.0" layoutY="426.0" mnemonicParsing="false" onAction="#gotoemployee" prefHeight="25.0" prefWidth="99.0" styleClass="Dashboard" text="EMPLOYEE" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button id="maintainance" layoutX="24.0" layoutY="505.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="125.0" styleClass="Dashboard" text="MAINTAINANCE" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button id="report" layoutX="39.0" layoutY="576.0" mnemonicParsing="false" prefHeight="13.0" prefWidth="92.0" styleClass="Dashboard" text="REPORT" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button id="settings" layoutX="37.0" layoutY="654.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="99.0" styleClass="Dashboard" text="SETTINGS" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button id="maintainance" layoutX="18.0" layoutY="345.0" mnemonicParsing="false" onAction="#gotoRent_collection" prefHeight="25.0" prefWidth="125.0" styleClass="Dashboard" text="Rent Collection" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="42.0" fitWidth="42.0" layoutX="61.0" layoutY="380.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/empolyee.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="58.0" fitWidth="56.0" layoutX="1276.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/download.jpeg" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

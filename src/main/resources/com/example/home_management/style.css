@@ -1,0 +1,195 @@
+.side_ankerpanel{
+        -fx-background-color:#2e0f38;
+         -fx-border-color: #ffffff;
+        -fx-border-width: 0px, 0px, 0px, 0px;
+        -fx-border-radius: 20px;
+        -fx-background-radius: 20px;
+        -fx-border-style: solid;
+        -fx-effect:dropshadow(three-pass-box,rgba(0,0,0,0.1),10.0,0.0,0.0,10.0);
+}
+.font_label{
+    -fx-font-file: "MONOPOLY_INLINE";
+
+}
+.top_label{
+        -fx-background-color: #363738;
+        fx-border-color: #2207bb;
+         fx-border-width: 2px, 2px, 2px, 2px;
+       fx-border-radius: 10px;
+        -fx-background-radius: 10 px;
+        fx-border-style: solid;
+
+}
+.Dashboard{
+     -fx-background-color: #2e0f38;
+
+     -fx-background-radius: 10 px;
+      fx-border-style: solid;
+      //fx-effect:dropshadow(one-pass-box,GREEN,10,5.0,10,2);
+}
+.total_money_label{
+
+    -fx-background-color:#ffffff;
+    -fx-border-width: 0px, 0px, 0px, 0px;
+            -fx-border-radius: 20px;
+            -fx-border-color: #ffbb00;
+            -fx-background-radius: 20px;
+            -fx-border-style: solid;
+            -fx-effect:dropshadow(three-pass-box,rgba(0,0,0,0.1),10.0,0.0,0.0,10.0);
+            -fx-background-color: Linear-gradient(to right bottom,#ffbb00,#fcffb0);
+}
+.est_money_label{
+    -fx-background-color:#ffffff;
+    -fx-border-width: 0px, 0px, 0px, 0px;
+            -fx-border-radius: 20px;
+            -fx-border-color: #ffbb00;
+            -fx-background-radius: 20px;
+            -fx-border-style: solid;
+            -fx-effect:dropshadow(three-pass-box,rgba(0,0,0,0.1),10.0,0.0,0.0,10.0);
+            -fx-background-color: Linear-gradient(to right bottom,#34a0ed,#cde6f7);
+}
+.total_exp_money_label{
+    -fx-background-color:#ffffff;
+    -fx-border-width: 0px, 0px, 0px, 0px;
+            -fx-border-radius: 20px;
+            -fx-border-color: #ffbb00;
+            -fx-background-radius: 20px;
+            -fx-border-style: solid;
+            -fx-effect:dropshadow(three-pass-box,rgba(0,0,0,0.1),10.0,0.0,0.0,10.0);
+            -fx-background-color: Linear-gradient(to right bottom,#00d107,#b0ffb3);
+}
+.rest_money_label{
+    -fx-background-color:#ffffff;
+    -fx-border-width: 0px, 0px, 0px, 0px;
+            -fx-border-radius: 20px;
+            -fx-border-color: #ffbb00;
+            -fx-background-radius: 20px;
+            -fx-border-style: solid;
+            -fx-effect:dropshadow(three-pass-box,rgba(0,0,0,0.1),10.0,0.0,0.0,10.0);
+            -fx-background-color: Linear-gradient(to right bottom,#fc5400,#ffc3a6);
+}
+.total_unit_label{
+    -fx-background-color:#ffffff;
+    -fx-border-width: 0px, 0px, 0px, 0px;
+            -fx-border-radius: 20px;
+            -fx-border-color: #ffbb00;
+            -fx-background-radius: 20px;
+            -fx-border-style: solid;
+            -fx-effect:dropshadow(three-pass-box,rgba(0,0,0,0.1),10.0,0.0,0.0,10.0);
+            -fx-background-color: Linear-gradient(to right bottom,#00d1bc,#a2fcf3);
+}
+.rental_list_label{
+    -fx-background-color:#ffffff;
+    -fx-border-width: 0px, 0px, 0px, 0px;
+            -fx-border-radius: 20px;
+            -fx-border-color: #ffbb00;
+            -fx-background-radius: 20px;
+            -fx-border-style: solid;
+            -fx-effect:dropshadow(three-pass-box,rgba(0,0,0,0.1),10.0,0.0,0.0,10.0);
+            -fx-background-color: Linear-gradient(to right bottom,#c804d6,#fab0ff);
+}
+.rent_collected_label{
+    -fx-background-color:#ffffff;
+    -fx-border-width: 0px, 0px, 0px, 0px;
+            -fx-border-radius: 20px;
+            -fx-border-color: #ffbb00;
+            -fx-background-radius: 20px;
+            -fx-border-style: solid;
+            -fx-effect:dropshadow(three-pass-box,rgba(0,0,0,0.1),10.0,0.0,0.0,10.0);
+            -fx-background-color: Linear-gradient(to right bottom,#f70202,#fca4a4);
+}
+.employee_label{
+    -fx-background-color:#ffffff;
+    -fx-border-width: 0px, 0px, 0px, 0px;
+            -fx-border-radius: 20px;
+            -fx-border-color: #ffbb00;
+            -fx-background-radius: 20px;
+            -fx-border-style: solid;
+            -fx-effect:dropshadow(three-pass-box,rgba(0,0,0,0.1),10.0,0.0,0.0,10.0);
+            -fx-background-color: Linear-gradient(to right bottom,#fc6868,#f7d7d7);
+}
+
+.transparent{
+        -fx-background-color : rgba(0,0,0,0);
+}
+.srch_pane{
+    -fx-background-color:#ffffff;;
+    -fx-background-radius:100px;
+     -fx-effect:dropshadow(three-pass-box,rgba(0,0,0,0.1),10.0,0.0,0.0,10.0);
+
+}
+.srch_button{
+-fx-background-color:#787d79;
+    -fx-background-radius:100px;
+}
+.flat{
+ -fx-background-color:#ffffff;
+    -fx-border-width: 0px, 0px, 0px, 0px;
+            -fx-border-radius: 20px;
+            -fx-border-color: #ffbb00;
+            -fx-background-radius: 20px;
+            -fx-border-style: solid;
+            -fx-effect:dropshadow(three-pass-box,rgba(0,0,0,0.1),10.0,0.0,0.0,10.0);
+            fx-background-color: Linear-gradient(to right bottom,#f70202,#fca4a4);
+
+}
+.add_unit_button{
+ -fx-background-color:#ffffff;
+     -fx-border-width: 0px, 0px, 0px, 0px;
+             -fx-border-radius: 10px;
+             -fx-border-color: #ffbb00;
+             -fx-background-radius: 10px;
+             -fx-border-style: solid;
+             -fx-effect:dropshadow(three-pass-box,rgba(0,0,0,0.1),10.0,0.0,0.0,10.0);
+             -fx-background-color: Linear-gradient(to right bottom,#4dff82,#4dff82);
+}
+.text_field{
+ -fx-background-color:#ffffff;
+ -fx-effect:dropshadow(three-pass-box,rgba(0,0,0,0.1),10.0,0.0,0.0,10.0);
+  -fx-border-width: 0px, 0px, 0px, 0px;
+              -fx-border-radius: 5px;
+              -fx-border-color: #ffbb00;
+              -fx-background-radius: 5px;
+}
+.add_unit_popup{
+ -fx-background-color:#ffffff;
+     -fx-border-width: 0px, 0px, 0px, 0px;
+
+             -fx-border-radius: 50px;
+             -fx-border-color: #ffbb00;
+             -fx-background-radius: 15px;
+             -fx-border-style: solid;
+             -fx-effect:dropshadow(three-pass-box,rgba(0,0,0,0.1),10.0,0.0,0.0,10.0);
+             -fx-background-color: Linear-gradient(to right bottom,#defced,#defced);
+}
+.graph_chart_pane{
+    -fx-background-color:#ffffff;;
+    -fx-background-radius:10px;
+     -fx-effect:dropshadow(three-pass-box,rgba(0,0,0,0.1),10.0,0.0,0.0,10.0);
+
+}
+.ractangle{
+     -fx-border-radius: 50px;
+             -fx-border-color: #ffbb00;
+             -fx-background-radius: 15px;
+             -fx-border-style: solid;
+}
+.mouse-moved : hover{
+-fx-background-color: #EFEFEF;
+}
+.selected{
+-fx-background-color: #F4F5F9;
+}
+.add_enployee_background{
+-fx-background-color:#ffffff;
+        -fx-border-color: #ffffff;
+        -fx-border-width: 0px, 0px, 0px, 0px;
+        -fx-border-radius: 50px;
+        -fx-background-radius: 20px;
+        -fx-border-style: solid;
+        -fx-effect:dropshadow(three-pass-box,rgba(0,0,0,0.1),10.0,0.0,0.0,10.0);
+
+}
+.root_background{
+    -fx-background-color: Linear-gradient(to right bottom,#d4effa,#ffffff);
+}

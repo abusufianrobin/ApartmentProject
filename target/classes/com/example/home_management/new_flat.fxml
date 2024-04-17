@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" prefHeight="179.0" prefWidth="156.0" styleClass="flat" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.home_management.new_appartment_controller">
+   <children>
+      <HBox alignment="TOP_CENTER" prefHeight="65.0" prefWidth="134.0">
+         <children>
+            <ImageView fx:id="flat_image" fitHeight="107.0" fitWidth="103.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/home.png" />
+               </image>
+            </ImageView>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="28.0" prefWidth="134.0">
+         <children>
+            <Label fx:id="flat_name" text="Flat 101">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <Label fx:id="flat_amount" text="14000" textFill="#9a9191">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</VBox>

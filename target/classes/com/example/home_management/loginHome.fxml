@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import java.lang.String?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Reflection?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="420.0" prefWidth="676.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="436.0" fitWidth="684.0" layoutX="-5.0" layoutY="-12.0" pickOnBounds="true">
+         <image>
+
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="66.0" layoutY="37.0" prefHeight="346.0" prefWidth="545.0" style="-fx-background-color: white; -fx-background-radius: 50;">
+         <children>
+            <ImageView fitHeight="151.0" fitWidth="197.0" layoutX="14.0" layoutY="147.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+
+               </image>
+            </ImageView>
+
+            <TextField focusTraversable="false" layoutX="278.0" layoutY="117.0" prefHeight="37.0" prefWidth="235.0" promptText="phone/email" style="-fx-background-color: transparent; -fx-border-radius: 90; -fx-border-color: teal; -fx-border-width: blur;" stylesheets="@../../login1/login/src/main/resources/com/example/login/Aoop%20project/login1/login/src/main/resources/com/Downloads/login1/login/src/main/resources/style.css">
+               <font>
+                  <Font name="Arial" size="13.0" />
+               </font>
+               <styleClass>
+                  <String fx:value="gradient" />
+                  <String fx:value="gradient" />
+               </styleClass>
+            </TextField>
+            <PasswordField focusTraversable="false" layoutX="278.0" layoutY="163.0" prefHeight="37.0" prefWidth="235.0" promptText="password" style="-fx-background-color: tranpasrent; -fx-border-color: teal; -fx-border-width: blur; -fx-background-radius: 90; -fx-border-radius: 90;" styleClass="text-field" stylesheets="@../../login1/login/src/main/resources/com/example/login/Aoop%20project/login1/login/src/main/resources/com/Downloads/login1/login/src/main/resources/style.css">
+               <font>
+                  <Font name="Arial" size="13.0" />
+               </font>
+            </PasswordField>
+
+            <Button layoutX="278.0" layoutY="232.0" mnemonicParsing="false" onAction="#switchToShop" prefHeight="37.0" prefWidth="235.0" style="-fx-background-radius: 90; -fx-background-color: teal; -fx-border-radius: 90; -fx-border-width: transparent; -fx-border-color: orange;" styleClass="create-btn" stylesheets="@../../login1/login/src/main/resources/style.css" text="Login" />
+            <Button layoutX="278.0" layoutY="293.0" mnemonicParsing="false" onAction="#switchToSignup" prefHeight="37.0" prefWidth="235.0" style="-fx-background-color: teal; -fx-background-radius: 90; -fx-border-color: orange; -fx-background-radius: 90; -fx-border-radius: 90;" styleClass="create-btn" stylesheets="@../../login1/login/src/main/resources/com/example/login/Aoop%20project/login1/login/src/main/resources/com/Downloads/login1/login/src/main/resources/style.css" text="Sign Up" textFill="WHITE" />
+            <Text cache="true" focusTraversable="true" layoutX="386.0" layoutY="285.0" pickOnBounds="true" strokeType="OUTSIDE" strokeWidth="0.0" text="or" />
+            <Hyperlink layoutX="410.0" layoutY="200.0" onAction="#switchToFP" prefHeight="25.0" prefWidth="120.0" text="Forgot Password?" textFill="#251c1c">
+               <font>
+                  <Font size="11.0" />
+               </font></Hyperlink>
+            <Label layoutX="279.0" layoutY="77.0" prefHeight="17.0" prefWidth="185.0" style="-fx-background-color: blur;" styleClass="head-label" stylesheets="@../../login1/login/src/main/resources/com/example/login/Aoop%20project/login1/login/src/main/resources/com/Downloads/login1/login/src/main/resources/style.css" text="Login Account!">
+               <font>
+                  <Font name="SansSerif Bold" size="17.0" />
+               </font>
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <ColorAdjust />
+                     </bumpInput>
+
+                  </Lighting>
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="N_RESIZE" />
+               </cursor>
+            </Label>
+            <Text depthTest="ENABLE" fill="#3a4586" focusTraversable="true" fontSmoothingType="LCD" layoutX="-3.0" layoutY="114.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="gradient" text="Home Service" textAlignment="CENTER" wrappingWidth="245.0">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="33.0" />
+               </font>
+               <effect>
+                  <Reflection />
+               </effect>
+            </Text>
+            <ImageView fitHeight="151.0" fitWidth="197.0" layoutX="24.0" layoutY="157.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

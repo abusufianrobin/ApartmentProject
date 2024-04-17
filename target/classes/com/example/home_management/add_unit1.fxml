@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane fx:id="add_unit_pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="662.0" prefWidth="600.0" styleClass="add_unit_popup" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.home_management.add_unit_controller">
+    <children>
+        <Text layoutX="47.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Flat Name" />
+        <Text layoutX="47.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Room " />
+        <Text layoutX="220.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Washroom" />
+        <Text layoutX="445.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Belcony" />
+        <Text layoutX="50.0" layoutY="259.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Flat Rent" />
+        <Text layoutX="420.0" layoutY="257.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Water Bill" />
+        <Text layoutX="45.0" layoutY="355.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Other cost" />
+        <Text layoutX="57.0" layoutY="456.0" strokeType="OUTSIDE" strokeWidth="0.0" text="About" />
+        <TextField fx:id="flatname" layoutX="46.0" layoutY="58.0" prefHeight="37.0" prefWidth="211.0" promptText="e.g : Flat 101 A" styleClass="text_field" stylesheets="@style.css" />
+        <TextField layoutX="45.0" layoutY="164.0" prefHeight="37.0" prefWidth="149.0" promptText="e.g : 5" styleClass="text_field" stylesheets="@style.css" />
+        <TextField layoutX="229.0" layoutY="164.0" prefHeight="37.0" prefWidth="149.0" promptText="e.g : 2" styleClass="text_field" stylesheets="@style.css" />
+        <TextField layoutX="403.0" layoutY="165.0" prefHeight="37.0" prefWidth="149.0" promptText="e.g : 2" styleClass="text_field" stylesheets="@style.css" />
+        <TextField fx:id="flat_amout" layoutX="47.0" layoutY="279.0" prefHeight="37.0" prefWidth="149.0" promptText="e.g : 20000" styleClass="text_field" stylesheets="@style.css" />
+        <TextField layoutX="412.0" layoutY="279.0" prefHeight="37.0" prefWidth="149.0" promptText="e,g : 500" styleClass="text_field" stylesheets="@style.css" />
+        <TextField layoutX="47.0" layoutY="375.0" prefHeight="37.0" prefWidth="149.0" promptText="Optional" styleClass="text_field" stylesheets="@style.css" />
+        <TextField alignment="TOP_LEFT" layoutX="47.0" layoutY="470.0" prefHeight="93.0" prefWidth="509.0" promptText="Optional" styleClass="text_field" stylesheets="@style.css" />
+        <Button layoutX="504.0" layoutY="596.0" mnemonicParsing="false" onAction="#handleclosebutton" prefHeight="37.0" prefWidth="69.0" styleClass="srch_pane" stylesheets="@style.css" text="Add">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button layoutX="401.0" layoutY="596.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="69.0" styleClass="srch_pane" stylesheets="@style.css" text="Cancel">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Text layoutX="231.0" layoutY="258.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Electricity Bill" />
+      <TextField layoutX="229.0" layoutY="279.0" prefHeight="37.0" prefWidth="149.0" promptText="e.g : 1100" styleClass="text_field" stylesheets="@style.css" />
+    </children>
+</Pane>

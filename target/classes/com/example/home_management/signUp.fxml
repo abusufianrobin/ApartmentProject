@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" pickOnBounds="false" prefHeight="479.0" prefWidth="597.0" style="-fx-background-color: indigo;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.login.HelloController">
+   <children>
+      <ImageView fitHeight="485.0" fitWidth="597.0" layoutX="-2.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../../Documents/NetBeansProjects/JavaFXApplication1/src/image/bulndng.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="89.0" layoutY="127.0" prefHeight="280.0" prefWidth="451.0" style="-fx-background-color: indigo;">
+         <children>
+            <Label layoutX="32.0" layoutY="195.0" text="Home Address" textFill="#f2f2f2">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <TextField focusTraversable="false" layoutX="172.0" layoutY="201.0" prefHeight="25.0" prefWidth="220.0" promptText="address" style="-fx-background-radius: 88; -fx-border-radius: 88; -fx-border-width: transparent;" styleClass="text-field" stylesheets="@../../login1/login/src/main/resources/style.css">
+               <font>
+                  <Font name="Arial" size="12.0" />
+               </font>
+            </TextField>
+         </children></AnchorPane>
+      <TextField focusTraversable="false" layoutX="261.0" layoutY="157.0" prefHeight="25.0" prefWidth="220.0" promptText="username" style="-fx-background-radius: 88; -fx-border-radius: 88; -fx-border-width: transparent;" styleClass="text-field" stylesheets="@../../login1/login/src/main/resources/style.css">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font></TextField>
+      <TextField focusTraversable="false" layoutX="261.0" layoutY="198.0" prefHeight="25.0" prefWidth="220.0" promptText="email" style="-fx-background-radius: 88; -fx-border-radius: 88; -fx-border-width: transparent;" styleClass="text-field" stylesheets="@../../login1/login/src/main/resources/style.css">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font></TextField>
+      <TextField focusTraversable="false" layoutX="261.0" layoutY="241.0" prefHeight="25.0" prefWidth="220.0" promptText="password" style="-fx-background-radius: 88; -fx-border-radius: 88; -fx-border-width: transparent;" styleClass="text-field" stylesheets="@../../login1/login/src/main/resources/style.css">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font></TextField>
+      <TextField focusTraversable="false" layoutX="261.0" layoutY="280.0" prefHeight="25.0" prefWidth="220.0" promptText="number" style="-fx-background-radius: 88; -fx-border-width: transparent; -fx-border-radius: 88;" styleClass="text-field" stylesheets="@../../login1/login/src/main/resources/style.css">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font></TextField>
+      <Button blendMode="MULTIPLY" layoutX="14.0" layoutY="8.0" mnemonicParsing="false" onAction="#switchToLogin" prefHeight="46.0" prefWidth="75.0" style="-fx-background-color: blur; -fx-border-width: transparent;" text="&lt;-" textFill="#1c0000">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font></Button>
+      <Button layoutX="415.0" layoutY="424.0" mnemonicParsing="false" onAction="#switchToShop" prefHeight="45.0" prefWidth="117.0" style="-fx-background-radius: 90; -fx-border-radius: 90; -fx-border-width: transparent; -fx-background-color: indigo;" styleClass="create-btn" stylesheets="@../../login1/login/src/main/resources/style.css" text="Sign Up" />
+      <Label layoutX="158.0" layoutY="156.0" prefHeight="27.0" prefWidth="100.0" text="Full Name" textFill="#f8f6f6">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="185.0" layoutY="197.0" text="E-mail" textFill="#f5f0f0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="178.0" layoutY="279.0" text="Mobile" textFill="#f2f2f2">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="158.0" layoutY="240.0" text="Password" textFill="#f2f2f2">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label focusTraversable="false" layoutX="118.0" layoutY="64.0" style="-fx-background-radius: 88;" styleClass="head-label" stylesheets="@../../login1/login/src/main/resources/style.css" text="Register Account" textFill="WHITE">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
